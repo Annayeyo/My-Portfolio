@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
 
 body {
     margin: auto;
-    width: 75%;
+    width: 80%;
 }
 
 .mv {
@@ -53,6 +54,14 @@ body {
     display: flex;
 }
 
+.jc {
+    justify-content: space-between;
+}
+
+/* .w {
+    width: auto;
+} */
+
 .contact-info {
     color: #3A3A3A;
     font-size: 16px;
@@ -81,3 +90,18 @@ body {
     height: 50px;
     object-fit: contain;
 }
+
+.img-area {
+    width: 25%;
+}
+
+.img-area > :first-child {
+    width: auto;
+    height: 100px; 
+    object-fit: cover;
+}
+
+.shadow {
+    box-shadow: 17px 17px #FF408C;
+}
+
