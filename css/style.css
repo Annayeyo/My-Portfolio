@@ -4,3 +4,51 @@
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
+
+body {
+    margin: auto;
+    width: 75%;
+}
+
+.mv {
+    padding: 5% 0 5% 0;
+}
+
+.name {
+    margin: 6% 0 5% 0;
+}
+
+.name > :first-child {
+    color: #3A3A3A;
+    font-size: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: -0.72px;
+    /* margin-bottom: 1%; */
+}
+
+.name > h1 {
+    color: #FF408C;
+    font-size: 80px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132%;
+    letter-spacing: -1.6px;
+}
+
+.name > :last-child {
+    color: #000;
+    font-size: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: -0.72px;
+}
+
+.d-flex {
+    display: flex;
+}
