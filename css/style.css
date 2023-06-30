@@ -52,3 +52,15 @@ body {
 .d-flex {
     display: flex;
 }
+
+.contact-info {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.32px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
