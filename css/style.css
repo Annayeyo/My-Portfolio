@@ -32,7 +32,7 @@ body {
 
 .name > h1 {
     color: #FF408C;
-    font-size: 80px;
+    font-size: 70px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 700;
@@ -87,22 +87,38 @@ body {
     object-fit: contain;
 }
 
+.text-area {
+    width: 60%;
+}
+
 .img-area {
-    width: 25%;
+    width: 40%;
+    
 }
 
 .img-area > :first-child {
-    width: auto;
-    height: 100px; 
-    object-fit: cover;
+    height: 85%;
+    position: relative;
+    object-fit:cover;
+    width: 100%;
 }
 
 .shadow {
     box-shadow: 17px 17px #FF408C;
 }
 
+.star {
+    color: #FF408C;
+    width: 158.28px;
+    height: 161.847px;
+    position: relative;
+    left: 345px;
+    bottom: 92px;
+    z-index: -1;
+}
+
 .logo {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
